@@ -76,8 +76,8 @@ function App() {
 
       list.push(newData)
       localStorage.setItem("product", JSON.stringify(list));
-      setProduct(product)
-      setMain(product)
+      setProduct(list)
+      setMain(list)
       setImage('')
       e.target.reset();
       setShow(false)
